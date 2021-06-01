@@ -1,0 +1,29 @@
+body{
+    background-color:  hsl(233, 47%, 7%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.container{
+    display: grid;
+    border: 1px solid gold;
+    margin: 100px;
+    grid-template-columns: repeat(2,540px);
+    grid-template-areas: "content" "image";
+    
+}
+
+.text-content{
+    background-color: hsl(244, 38%, 16%);
+    grid-column: 1 /2 ;
+}
+
+.image{
+    grid-column: 2 / 3;
+    background-color: hsl(277, 64%, 61%) ;
+    opacity: 0.9;
+}
