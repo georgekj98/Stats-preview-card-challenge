@@ -76,3 +76,27 @@ p{
     word-spacing: 0.2rem;
     
 }
+
+.stats-footer{
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.stat{
+    /* border: 1px solid white; */
+    display : flex;
+    flex-direction: column;
+    padding-left: 3em;
+}
+
+.stat .value{
+    font-size: 1.5rem;
+}
+.stat .type{
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 0.35rem;
+}
