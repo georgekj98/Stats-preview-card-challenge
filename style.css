@@ -103,17 +103,17 @@ p{
     margin-top: 0.35rem;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 450px){
 
     .container{
         display: grid;
         border: 1px solid green;
         /* margin: 100px; */
-        grid-template-columns: 1fr;
-        grid-template-rows:  480px 1fr;
-        width: 80%;
-        height: 80%;
-        margin: 3rem auto;
+        grid-template-columns: 0.8fr;
+        grid-template-rows: 260px 1fr;
+        width: 100%;
+        height: 100%;
+        margin: 3rem 1rem;
         
     
     }
@@ -150,9 +150,6 @@ p{
         border: 1px solid red;
         background-size: cover;
     }
-    img{
-        width: 100%;
-    }
     .text-content{
         grid-row: 2 / 3;
     }
@@ -165,5 +162,10 @@ p{
         height: 100%;
         background: rgba(103, 5, 163, 0.55);
         
+    }
+
+    h2{
+        font-size: 1.85rem;
+        text-align: center;
     }
 }
