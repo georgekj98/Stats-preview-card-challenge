@@ -5,9 +5,11 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
-
+.description-hide{
+    display: none;
+}
 .container{
     display: grid;
     /* border: 1px solid gold; */
@@ -99,4 +101,69 @@ p{
     text-transform: uppercase;
     color: hsla(0, 0%, 100%, 0.6);
     margin-top: 0.35rem;
+}
+
+@media only screen and (max-width: 700px){
+
+    .container{
+        display: grid;
+        border: 1px solid green;
+        /* margin: 100px; */
+        grid-template-columns: 1fr;
+        grid-template-rows:  480px 1fr;
+        width: 80%;
+        height: 80%;
+        margin: 3rem auto;
+        
+    
+    }
+    /* p{
+        font-family: 'Inter', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75); */
+        /* border: 1px solid greenyellow; */
+        /* margin-top: 0;
+        padding: 3em;
+        padding-top: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        word-spacing: 0.2rem;
+        
+    }
+    .description{
+        display: none;
+    }
+    .description-hide{
+        display: inline;
+    }
+    .para{
+        display: block;
+        text-align: center;
+    } */
+    .image{
+        grid-column: 1 /2;
+        grid-row: 1 /2;
+        
+        background: url('images/image-header-mobile.jpg');
+        width: 100%;
+        
+        position: relative;
+        border: 1px solid red;
+        background-size: cover;
+    }
+    img{
+        width: 100%;
+    }
+    .text-content{
+        grid-row: 2 / 3;
+    }
+    .overlay{
+        
+        grid-row: 1 / 2;
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(103, 5, 163, 0.55);
+        
+    }
 }
