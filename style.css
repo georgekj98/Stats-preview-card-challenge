@@ -13,7 +13,6 @@ body{
 .container{
     display: grid;
     /* border: 1px solid gold; */
-    /* margin: 100px; */
     grid-template-columns: repeat(2,540px);
     grid-template-rows:  446px;
     grid-template-areas: "content" "image";
@@ -104,13 +103,13 @@ p{
 }
 
 @media only screen and (max-width: 450px){
-
     .container{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 260px 1fr;
         width: 100%;
         height: 100%;
+        min-height:900px;
         margin: 3rem 1rem;
     }
     .image{
@@ -148,7 +147,7 @@ p{
         margin-top: 0.3rem;
         /* border: 1px solid blue; */
         padding: 0;
-        margin-top: 1.5rem;
+        margin-top: -2rem;
     }
     .description-desktop{
         display: none;
@@ -162,45 +161,20 @@ p{
         word-spacing: 0.1rem;
     }
 
-    /* .stats-footer{
-        margin-top: 2rem;
+    .stats-footer{
+        display: unset;
+        /* border: 1px solid purple; */
         display: flex;
         flex-direction: column;
-        border: 1px solid greenyellow;
+        margin-top: -6rem;        
     }
     .stat{
-        align-items: center;
-    } */
-    
-    /* .stats-footer{
-        border: 1px solid yellow;
-        display: block; 
-        grid-template-rows: repeat(3,1fr);
-        grid-template-columns: 1fr;
-        justify-items: center; 
-        text-align: center;
-        margin-left: 0 ; 
+        padding-left: 0 ;
+        /* border: 1px solid yellow; */
+        justify-items: center;
+        text-align: center;  
+        margin-top: .5rem;
+        margin-bottom: 1.5rem;
 
-        
     }
-   
-    
-     .one {
-        grid-row: 1 / 2;
-    }
-    .two {
-        grid-row: 2 / 3;
-    }
-    .three {
-        grid-row: 3 / 4;
-    }
-    .stat{
-        border: 1px solid white;
-        display: block;
-        display : flex; 
-        flex-direction: column; 
-         padding-left: 3em; 
-         text-align: center;
-    } */
 }
-
