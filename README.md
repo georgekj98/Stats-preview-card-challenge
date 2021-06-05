@@ -1,4 +1,4 @@
-#Stats preview card 
+# Stats preview card 
 
 Solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). 
 
@@ -17,8 +17,8 @@ Solution to the [Stats preview card component challenge on Frontend Mentor](http
 
 ### Screenshots
 
-![](images/desktop-layout.png)
-![](images/mobile-layout.png)
+![](images/desktop_layout.png)
+![](images/mobile_layout.png)
 
 
 ### Links
