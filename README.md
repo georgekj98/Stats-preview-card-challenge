@@ -23,9 +23,8 @@ Solution to the [Stats preview card component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/georgekj98/Stats-preview-card-challenge)
-- Live Site URL: [Add live site URL here](https://georgekj98.github.io/Stats-preview-card-challenge/)
-
+- Solution URL: [https://github.com/georgekj98/Stats-preview-card-challenge]
+- Live Site URL: [https://georgekj98.github.io/Stats-preview-card-challenge/]
 
 ### Built with
 
